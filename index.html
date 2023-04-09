@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" lang="es" content="Calderón Tinjaca Daniel David">
+    <meta name="keywords" content="Hamburguesas, comidas rapidas, restaurantes">
+    <meta name="description" content="Pide ya tu hamburguesa, en HambrKing tenemos una gran variedad de hamburguesas.">
+    <meta name="copyright" content="Copyright Daniel David Calderón Tinjaca">  
+    <!--  Animaciones de entrada  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Animaciones al hacer scrooll -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.png" type="image/png" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hambur King</title>
+</head>
+<body>
+    <header>
+        <a href="#inicio" class="logo"><img src="img/logo.png" class="logonav">HAMBURKING</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#inicio" onclick="toggleMenu();">Inicio</a></li>
+            <li><a href="#menu" onclick="toggleMenu();">Menú</a></li>
+            <li><a href="#about" onclick="toggleMenu();">Nosotros</a></li>
+            <li><a href="#contacto" onclick="toggleMenu();">Contacto</a></li>
+        </ul>
+    </header>
+
+    <!-- ************************************** SECCION 1 - BANNER **************************************  -->
+
+    <section class="sec-banner" id="inicio">
+    <div class="cont-figura">
+        <img src="img/our-menu-bg-1.png" class="img-banner" srcset="">
+    </div>
+    <div class="contenedor-bn">
+        <div class="contenido-bn">
+            <h1 class="titulo animate__animated animate__zoomInDown">HAMBURKING</h1>
+            <h2 class="profesion animate__animated animate__zoomIn">Restaurante</h2>
+            <span class="eslogan animate__animated animate__zoomIn">Los sabores que te harán sentir bien. </span>
+            <a href="#menu"><button class="btn-banner  animate__animated animate__zoomInUp" type="button"><span class="cover"></span>Menú</button></a>
+    </div>
+    </div>
+    </section>
+
+    <!-- ************************************** SECCION 1 - MENÚ **************************************  -->
+
+    <section class="sec-menu" id="menu">
+        <div class="titulos">
+            <h2>Hamburguesas</h2>
+        </div>
+
+        <div class="cont-hambur">
+        <div class="titulo-comida">
+            <h2>Whopper</h2>
+        </div>
+        <div class="wrap column-2 carta">
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/whopper/whopper.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>WHOPPER</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div>
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/whopper/whopper-tejana.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>WHOPPER TEJANA</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div> 
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/whopper/whopper-jr.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>WHOPPER JR</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div>
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/whopper/whopper-doble.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>WHOPPER DOBLE</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div>
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/whopper/whopper-veggie.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>WHOPPER VEGGIE</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="cont-hambur">
+        <div class="titulo-comida">
+            <h2>Megastacker</h2>
+        </div>
+        <div class="wrap column-2 carta">
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/megastacker/megastacker-triple.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>MEGASTACKER TRIPLE</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div>
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/megastacker/megastacker-sencilla.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>MEGASTACKER SENCILLA</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div> 
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/megastacker/megastacker-doble.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>MEGASTACKER DOBLE</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="cont-hambur">
+        <div class="titulo-comida">
+            <h2>The Kings</h2>
+        </div>
+        <div class="wrap column-2 carta">
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/the-king/tk-irresistible-king.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>IRRESISTIBLE KING</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div>
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/the-king/tk-xt-clasica.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>XT KING</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div> 
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/the-king/tk-bacon-king.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>BACON KING</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="cont-hambur">
+        <div class="titulo-comida">
+            <h2>Pollo</h2>
+        </div>
+        <div class="wrap column-2 carta">
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/pollo/irresistible-chiken-king.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>IRRESISTIBLE CHICKEN KING</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div>
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/pollo/crispy-chicken.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>CRISPY CHICKEN</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div> 
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/pollo/king-pollo-queso-tocineta.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>KING POLLO QUESO TOCINETA</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div>
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/pollo/king-de-pollo.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>KING DE POLLO</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div>   
+            
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/pollo/crispy-chicken-BBQ.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>CRISPY CHICKEN BBQ</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div>
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/pollo/nuggets-10-piezas.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>NUGGETS 10 PIEZAS</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div> 
+        </div>
+        </div>
+
+        <div class="cont-hambur">
+        <div class="titulos">
+            <h2>Postres</h2>
+        </div>
+        <div class="wrap column-2 carta">
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/postres/brownie-bites.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>BROWNIE BITES</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div>
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/postres/brownie-con-helado.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>BROWNIE CON HELADO</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div> 
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/postres/churro-bites.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>CHURRO BITES</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div>
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/postres/sundae-frutos-rojos.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>SUNDAE FRUTOS ROJOS</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div>
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/postres/sundae-arequipe.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>SUNDAE AREQUIPE</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div> 
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/postres/sundae-chocolate.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>SUNDAE CHOCOLATE</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div>
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/postres/hershey's-Pie.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>HERSHEY'S PIE</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div>
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/postres/pie-de-manzana.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>PIE DE MANZANA</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div> 
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/postres/malteada-de-chocolate.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>MALTEADA DE CHOCOLATE</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div>
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/postres/malteada-fresa.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>MALTEADA FRUTOS ROJOS</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div>
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/postres/malteada-vainilla.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>MALTEADA VAINILLA</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div> 
+
+            <div class="plato-carta">
+                <div class="img-plato-carta">
+                    <img src="img/postres/malteada-oreo.png" alt="">
+                </div>
+                <div class="title-plato-carta">
+                    <h4>MALTEADA OREO</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="precio-plato-carta">
+                    <span>9€</span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- ************************************** SECCION 3 - SOBRE NOSOTROS (ABOUT) **************************************  -->
+
+    <section class="sobre-nosotros" id="about">
+        <div class="titulos ct">
+            <h2>Sobre Nosotros</h2>
+        </div> 
+        <div class="content">
+            <div class="img-about">
+                <img src="img/about.jpg" alt="" srcset="">
+            </div>
+            <div class="info-about">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente alias est adipisci, 
+                maxime doloremque vero, iure cupiditate labore excepturi numquam voluptates amet voluptatum! 
+                Error maiores corporis ex vel molestias repellendus. 
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente alias est adipisci, 
+                maxime doloremque vero, iure cupiditate labore excepturi numquam voluptates amet voluptatum! 
+                Error maiores corporis ex vel molestias repellendus.</p>
+            </div>
+        </div>
+            <div class="cont-mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248.41058688155996!2d-74.47615441908263!3d5.010939708466688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e409a38a8d7a93f%3A0x2771c430f8742512!2sCl.%207%20%2310-64%2C%20Villeta%2C%20Cundinamarca!5e0!3m2!1ses!2sco!4v1681067161769!5m2!1ses!2sco" 
+                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+            </div>
+    </section>
+
+    <!-- ************************************** SECCION 4 - CONTACTO **************************************  -->
+
+    <section class="sec-contacto" id="contacto">
+        <div class="titulos ct">
+            <h2>Contacto</h2>
+        </div> 
+        <div class="content">
+            <div class="contactinfo">
+                <h3 class="subtitulo">Información de Contacto</h3>
+                <div class="contactinfobx">
+                    <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-map-marker"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Dirección</h3>
+                        <p>Colombia <br> Villeta - Cundinamarca</p>
+                    </div>
+                    </div>
+
+                    <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                        <div class="text">
+                        <h3>Celular</h3>
+                        <p>+57 321461519</p>
+                    </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="text">
+                        <h3>E-mail</h3>
+                        <p>hamburking@gmail.com</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formbx">
+                <form>
+                    <input type="text" name="" placeholder="Nombre completo">
+                    <input type="email" name="" placeholder="Email">
+                    <textarea placeholder="Mensaje"></textarea>
+                    <input type="submit" class="btnenviar" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>Copyright © 2023 Daniel David Calderón Tinjaca. Todos los derechos reservados</p>
+    </div>
+
+
+    <!--  SCRIPT BARRA DE NAVEGACIÓN  -->
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            var header = document.querySelector(`header`);
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        function toggleMenu(){
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
